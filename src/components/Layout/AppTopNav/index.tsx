@@ -1,4 +1,3 @@
-import { colors } from '@utils/colors';
 import _ from 'lodash';
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
