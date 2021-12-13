@@ -1,0 +1,24 @@
+version: 0.2
+
+env:
+  variables:
+    NODE_ENV: 'development'
+    NPM_USE_PRODUCTION: false
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - printenv
+      - NODE_ENV=development npm install
+  build:
+    commands:
+      - npm run build
+  post_build:
+    commands:
+      - rm -rf node_modules/
+
+artifacts:
+  files:
+    - '**/*'
