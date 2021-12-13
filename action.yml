@@ -1,9 +1,0 @@
-name: "levi-front"
-author: "maxam2021"
-description: "Happy"
-branding:
-  icon: "activity"
-  color: "blue"
-runs:
-  using: "node16"
-  main: "dist/index.js"
