@@ -55,9 +55,6 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
         name: 'feed',
         pathname: '/feed',
       },
-      {
-        name: 'thx4visiting, Guest',
-      },
     ],
   ];
 
