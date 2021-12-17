@@ -82,7 +82,7 @@ const IndexPage: React.FC<IndexPageProps> = () => {
   const DUMMY_POSTS: PostInfo[] = Array(20);
 
   const DUMMY_POST: PostInfo = {
-    title: 'SOME',
+    title: 'POST',
     dateTime: moment().format('YYYY-MM-DD'),
   };
 
