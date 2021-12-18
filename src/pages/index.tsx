@@ -44,7 +44,7 @@ const Latest = styled.li`
   }
 
   &:hover {
-    backdrop-filter: blur(0px);
+    backdrop-filter: blur(25px);
   }
 `;
 
