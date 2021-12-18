@@ -42,6 +42,10 @@ const Latest = styled.li`
   &:first-child {
     margin-top: 0;
   }
+
+  &:hover {
+    backdrop-filter: blur(0px);
+  }
 `;
 
 interface PostInfo {
