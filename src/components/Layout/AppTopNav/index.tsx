@@ -2,12 +2,12 @@ import _ from 'lodash';
 import { useRouter } from 'next/router';
 import styled from 'styled-components';
 
-import NavItem, { NavItemSize } from './NavItem';
+import NavItem, { NavTextSize } from './NavItem';
 
 interface NavItemsInterface {
   name: string;
   pathname?: string;
-  size?: NavItemSize;
+  size?: NavTextSize;
 }
 
 const Container = styled.nav`
@@ -39,21 +39,26 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
       {
         name: `LeviDev`,
         pathname: '/',
-        size: NavItemSize.LARGE,
+      },
+      {
+        name: `CoverLetter`,
+        pathname: '/coverletter',
+      },
+      {
+        name: `Contact`,
+        pathname: '/dd',
+      },
+      {
+        name: `-`,
+        pathname: '/dd',
       },
     ],
     [
       {
-        name: 'home',
-        pathname: '/',
+        name: 'Feed',
       },
       {
-        name: 'coverLetter',
-        pathname: '/coverletter',
-      },
-      {
-        name: 'feed',
-        pathname: '/feed',
+        name: 'Guest',
       },
     ],
   ];
@@ -66,7 +71,7 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
             <NavItem
               key={`appTopNavItem_${itemIndex}`}
               pathname={item.pathname}
-              size={item.size || NavItemSize.MIDDLE}
+              size={item.size || NavTextSize.MIDDLE}
               onClick={() => item.pathname && router.push(item.pathname)}
             >
               {item.name}

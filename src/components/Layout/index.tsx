@@ -6,7 +6,10 @@ import AppTopNav from './AppTopNav';
 
 const Container = styled.div`
   width: 100vw;
-  height: ${(props: { viewHeight: number }) => `${props.viewHeight}px`};
+  min-height: ${(props: { viewHeight: number }) => `${props.viewHeight}px`};
+  background: url('/images/background.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
 `;
 
 const Header = styled.header`
@@ -14,16 +17,15 @@ const Header = styled.header`
   top: 0;
   left: 0;
   z-index: 998;
-  padding: 0 10px;
+  padding: 0 40px;
   width: 100%;
-  height: 60px;
-  background: ${colors.point};
+  height: 50px;
+  backdrop-filter: blur(5px);
 `;
 
 const Main = styled.main`
-  padding-top: 70px;
+  padding-top: 50px;
   min-height: 100%;
-  background: ${colors.point};
 `;
 
 interface LayoutProps {
