@@ -1,4 +1,3 @@
-import { colors } from '@utils/colors';
 import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
