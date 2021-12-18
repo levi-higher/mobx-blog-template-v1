@@ -21,7 +21,7 @@ const Header = styled.header`
   padding: 0 40px;
   width: 100%;
   height: 50px;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(25px);
 `;
 
 const Main = styled.main`
