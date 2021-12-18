@@ -22,7 +22,7 @@ const NavItemText = styled.p`
   z-index: 1000;
   color: rgba(255, 255, 255, 0.6);
   font-family: 'Crimson Pro', serif;
-  font-size: 16px;
+  font-size: 14px;
 
   ${(props: NavItemProps) =>
     props.size === NavTextSize.LARGE &&

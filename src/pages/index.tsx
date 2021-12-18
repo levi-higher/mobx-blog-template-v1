@@ -31,9 +31,9 @@ const Latest = styled.li`
   display: flex;
   align-items: center;
   position: relative;
-  margin-top: 5px;
-  padding: 10px 20px;
-  height: 48px;
+  margin-top: 25px;
+  padding: 0 20px;
+  height: 110px;
   width: 100%;
   transition: all 0.1s linear;
   cursor: pointer;

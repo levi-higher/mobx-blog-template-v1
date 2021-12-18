@@ -10,6 +10,7 @@ const Container = styled.div`
   background: url('/images/background.jpg') no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 `;
 
 const Header = styled.header`
