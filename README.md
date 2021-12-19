@@ -2,6 +2,17 @@
 
 This is a starter project for React blog that uses Next.js and MobX.
 
+# Current Progress:
+
+- [x] Library setting in project
+- [] Header WIP
+- [] Latest WIP
+- [] Login Modal
+- [] Notice Modal
+- [] Cover Letter Page
+- [] Feed Page
+- [] . . . Welcome to PR.
+
 ## About
 
 Next.js is a framework that makes it easy to create 'universal' React apps - React apps that do both client and server side rendering.
