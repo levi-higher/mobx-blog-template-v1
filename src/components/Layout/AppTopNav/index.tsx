@@ -37,7 +37,7 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
   const NAV_ITEMS_MAPPING: NavItemsInterface[][] = [
     [
       {
-        name: `LeviDev`,
+        name: `LeviTamplate-v1`,
         pathName: '/',
       },
       {
@@ -45,17 +45,13 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
         pathName: '/coverletter',
       },
       {
-        name: `Contact`,
-        pathName: '/dd',
-      },
-      {
-        name: `-`,
-        pathName: '/dd',
+        name: `Feed`,
+        pathName: '/feed',
       },
     ],
     [
       {
-        name: 'Feed',
+        name: 'Notice',
       },
       {
         name: 'Guest',
