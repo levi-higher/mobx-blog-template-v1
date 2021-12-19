@@ -1,4 +1,4 @@
-# MobX & Next.js Project
+# MobX & Next.js Blog Template v1
 
 This is a starter project for React blog that uses Next.js and MobX.
 
