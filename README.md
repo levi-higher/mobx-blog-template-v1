@@ -10,7 +10,7 @@ Next.js is a framework that makes it easy to create 'universal' React apps - Rea
 
 To get started, just clone the repository and run `npm install && npm run dev`:
 
-    git clone https://github.com/iaincollins/nextjs-starter.git
+    git clone https://github.com/levi-higher/mobx-blog-template-v1.git
     npm install
     npm run dev
 
