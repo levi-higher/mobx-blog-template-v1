@@ -11,7 +11,7 @@ This is a starter project for React blog that uses Next.js and MobX.
 - [ ] Notice Modal
 - [ ] Cover Letter Page
 - [ ] Feed Page
-- [ ] . . . Welcome to PR.
+- [ ] . . . Welcome to PR
 
 ## About
 
