@@ -6,7 +6,7 @@ import NavItem, { NavTextSize } from './NavItem';
 
 interface NavItemsInterface {
   name: string;
-  pathname?: string;
+  pathName?: string;
   size?: NavTextSize;
 }
 
@@ -38,19 +38,19 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
     [
       {
         name: `LeviDev`,
-        pathname: '/',
+        pathName: '/',
       },
       {
         name: `CoverLetter`,
-        pathname: '/coverletter',
+        pathName: '/coverletter',
       },
       {
         name: `Contact`,
-        pathname: '/dd',
+        pathName: '/dd',
       },
       {
         name: `-`,
-        pathname: '/dd',
+        pathName: '/dd',
       },
     ],
     [
@@ -70,9 +70,9 @@ const AppTopNav: React.FC<AppTopNavProps> = () => {
           {_.map(items, (item, itemIndex) => (
             <NavItem
               key={`appTopNavItem_${itemIndex}`}
-              pathname={item.pathname}
+              pathName={item.pathName}
               size={item.size || NavTextSize.MIDDLE}
-              onClick={() => item.pathname && router.push(item.pathname)}
+              onClick={() => item.pathName && router.push(item.pathName)}
             >
               {item.name}
             </NavItem>

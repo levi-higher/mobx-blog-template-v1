@@ -23,7 +23,7 @@ input {
 
 body {
   margin: 0;
-  background: url('/images/background.jpg') no-repeat;
+  background: url('/images/background.png') no-repeat;
   background-size: cover;
   background-position: center;
 }

@@ -32,10 +32,11 @@ const Latest = styled.li`
   position: relative;
   margin-top: 25px;
   padding: 0 20px;
-  height: 110px;
+  height: 150px;
   width: 100%;
   transition: all 0.1s linear;
   cursor: pointer;
+  background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(8px);
 
   &:first-child {

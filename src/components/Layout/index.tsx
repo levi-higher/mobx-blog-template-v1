@@ -6,7 +6,7 @@ import AppTopNav from './AppTopNav';
 const Container = styled.div`
   width: 100vw;
   min-height: ${(props: { viewHeight: number }) => `${props.viewHeight}px`};
-  background: url('/images/background.jpg') no-repeat;
+  background: url('/images/background.png') no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

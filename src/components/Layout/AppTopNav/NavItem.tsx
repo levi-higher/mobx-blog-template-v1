@@ -41,15 +41,15 @@ interface NavItemProps {
   isActive?: boolean;
   size?: NavTextSize;
   onClick?(): void;
-  pathname?: string;
+  pathName?: string;
 }
 
-const NavItem: React.FC<NavItemProps> = ({ children, size, onClick, pathname }) => {
+const NavItem: React.FC<NavItemProps> = ({ children, size, onClick, pathName }) => {
   const router = useRouter();
 
   return (
     <Container onClick={onClick}>
-      <NavItemText isActive={router.asPath === pathname} size={size}>
+      <NavItemText isActive={router.asPath === pathName} size={size}>
         {children}
       </NavItemText>
     </Container>
