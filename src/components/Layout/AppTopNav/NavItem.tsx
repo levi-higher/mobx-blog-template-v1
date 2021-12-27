@@ -24,6 +24,10 @@ const NavItemText = styled.p`
   font-family: 'Crimson Pro', serif;
   font-size: 14px;
 
+  &:hover {
+    color: ${colors.white};
+  }
+
   ${(props: NavItemProps) =>
     props.size === NavTextSize.LARGE &&
     css`
