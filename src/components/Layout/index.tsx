@@ -6,10 +6,16 @@ import AppTopNav from './AppTopNav';
 const Container = styled.div`
   width: 100vw;
   min-height: ${(props: { viewHeight: number }) => `${props.viewHeight}px`};
-  background: url('/images/background.png') no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+`;
+
+const BackgroundImage = styled.div`
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  background: url('/images/background.png') center center / cover no-repeat !important;
 `;
 
 const Header = styled.header`
@@ -41,6 +47,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <Container viewHeight={viewHeight}>
+      <BackgroundImage />
       <Header>
         <AppTopNav />
       </Header>

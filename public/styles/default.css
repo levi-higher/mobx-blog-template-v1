@@ -23,9 +23,7 @@ input {
 
 body {
   margin: 0;
-  background: url('/images/background.png') no-repeat;
-  background-size: cover;
-  background-position: center;
+  background: url('/images/background.png') center center / cover no-repeat fixed;
 }
 
 li {
